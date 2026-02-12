@@ -29,8 +29,8 @@ Note that downloading raw data resources can take on the order of hours to tens
 of hours depending on your internet connection and the reliability of the
 resources' respective servers.
 
-A full resource refresh (i.e., re-download of resources) was run in 2 hours on
-commodity hardware (e.g., a 2023 MacBook Pro with 36GB RAM).
+Processing and analysis can be run overnight on commodity hardware (e.g., a 2023
+MacBook Pro with 36GB RAM).
 
 ## Resource Summary
 
@@ -39,34 +39,35 @@ are summarized in the following table that includes their
 [Bioregistry](https://bioregistry.io) prefix, license, current version, and
 number of terms (i.e., named concepts) they contain.
 
-2 resources were not available through
+3 resources were not available through
 [PyOBO](https://github.com/biopragmatics/pyobo). Therefore, the number of terms
 in that resource are estimated based on the ones that are observed in mappings
 assembled by SeMRA. Note that these are typically an underestimate.
 
 | prefix        | name                                                                             | license                                                                                                  | version    |  terms | status   |
 | :------------ | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- | :--------- | -----: | :------- |
-| doid          | Human Disease Ontology                                                           | CC0-1.0                                                                                                  | 2025-06-27 |  14372 | full     |
-| mondo         | Mondo Disease Ontology                                                           | CC-BY-4.0                                                                                                | 2025-06-03 |  30086 | full     |
-| efo           | Experimental Factor Ontology                                                     | Apache-2.0                                                                                               | 3.79.0     |   2126 | subset   |
-| mesh          | Medical Subject Headings                                                         | CC0-1.0                                                                                                  | 2025       |   3178 | subset   |
-| ncit          | NCI Thesaurus                                                                    | CC-BY-4.0                                                                                                | 25.06e     |  20522 | subset   |
-| orphanet      | Orphanet                                                                         | CC-BY-4.0                                                                                                |            |  15230 | observed |
-| orphanet.ordo | Orphanet Rare Disease Ontology                                                   | CC-BY-4.0                                                                                                | 4.6        |  15590 | full     |
-| umls          | Unified Medical Language System Concept Unique Identifier                        | https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/license_agreement.html     | 2025AA     | 189003 | subset   |
-| omim          | Online Mendelian Inheritance in Man                                              | https://www.omim.org/help/agreement                                                                      | 2025-07-02 |  15286 | observed |
-| omim.ps       | OMIM Phenotypic Series                                                           | https://www.omim.org/help/agreement                                                                      | 2025-07-02 |    594 | full     |
-| gard          | Genetic and Rare Diseases Information Center                                     |                                                                                                          |            |   6109 | full     |
-| icd10         | International Classification of Diseases, 10th Revision                          | https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf | 2019       |   2345 | full     |
-| icd10cm       | International Classification of Diseases, 10th Revision, Clinical Modification   |                                                                                                          |            |  21760 | observed |
+| doid          | Human Disease Ontology                                                           | CC0-1.0                                                                                                  | 2026-02-02 |  14521 | full     |
+| mondo         | Mondo Disease Ontology                                                           | CC-BY-4.0                                                                                                | 2026-01-06 |  30384 | full     |
+| efo           | Experimental Factor Ontology                                                     | Apache-2.0                                                                                               | 3.86.0     |   2108 | subset   |
+| mesh          | Medical Subject Headings                                                         | CC0-1.0                                                                                                  | 2026       |   3162 | subset   |
+| ncit          | NCI Thesaurus                                                                    | CC-BY-4.0                                                                                                | 26.02b     |  21845 | subset   |
+| orphanet      | Orphanet                                                                         | CC-BY-4.0                                                                                                |            |      0 | observed |
+| orphanet.ordo | Orphanet Rare Disease Ontology                                                   | CC-BY-4.0                                                                                                | 4.7        |  15799 | full     |
+| umls          | Unified Medical Language System Concept Unique Identifier                        | https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/license_agreement.html     | 2025AB     | 191213 | subset   |
+| omim          | Online Mendelian Inheritance in Man                                              | https://www.omim.org/help/agreement                                                                      | 2026-02-11 |  15380 | observed |
+| omim.ps       | OMIM Phenotypic Series                                                           | https://www.omim.org/help/agreement                                                                      | 2026-02-11 |    610 | full     |
+| medgen        | Human Medical Genetics                                                           |                                                                                                          |            |  21440 | observed |
+| gard          | Genetic and Rare Diseases Information Center                                     |                                                                                                          |            |   6097 | full     |
+| icd10         | International Classification of Diseases, 10th Revision                          | https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf | 2019       |   6838 | observed |
+| icd10cm       | International Classification of Diseases, 10th Revision, Clinical Modification   | CC BY-ND 3.0 IGO                                                                                         |            |  21979 | observed |
 | icd10pcs      | International Classification of Diseases, 10th Revision, Procedure Coding System |                                                                                                          |            |      0 | observed |
-| icd11         | International Classification of Diseases, 11th Revision (Foundation Component)   | CC-BY-ND-3.0-IGO                                                                                         | 2025-01    |  71175 | full     |
+| icd11         | International Classification of Diseases, 11th Revision (Foundation Component)   | CC-BY-ND-3.0-IGO                                                                                         | 2025-01    |   4636 | observed |
 | icd11.code    | ICD 11 Codes                                                                     | http://www.who.int/about/licensing/copyright_form/en                                                     |            |      0 | observed |
-| icd9          | International Classification of Diseases, 9th Revision                           |                                                                                                          |            |   3993 | observed |
-| icd9cm        | International Classification of Diseases, 9th Revision, Clinical Modification    |                                                                                                          |            |   9134 | observed |
-| icdo          | International Classification of Diseases for Oncology                            |                                                                                                          |            |    797 | observed |
+| icd9          | International Classification of Diseases, 9th Revision                           | CC BY-ND 3.0 IGO                                                                                         |            |   3993 | observed |
+| icd9cm        | International Classification of Diseases, 9th Revision, Clinical Modification    | CC BY-ND 3.0 IGO                                                                                         |            |   9132 | observed |
+| icdo          | International Classification of Diseases for Oncology                            | CC BY-ND 3.0 IGO                                                                                         |            |    798 | observed |
 
-There are a total of 421,300 terms across the 19 resources.
+There are a total of 369,935 terms across the 20 resources.
 
 ## Mapping Summary and Usage
 
@@ -80,27 +81,28 @@ The raw mappings are the ones directly read from the 9 sources.
   are observed in the mappings, in some cases)
 - All predicate types are combined in this table.
 
-| source_prefix |  doid | mondo |  efo | mesh |  ncit | orphanet | orphanet.ordo |   umls |  omim | omim.ps |  gard | icd10 | icd10cm | icd10pcs | icd11 | icd11.code | icd9 | icd9cm | icdo |
-| :------------ | ----: | ----: | ---: | ---: | ----: | -------: | ------------: | -----: | ----: | ------: | ----: | ----: | ------: | -------: | ----: | ---------: | ---: | -----: | ---: |
-| doid          | 14372 | 11867 | 1243 |  629 |  4640 |     2219 |             0 |   6778 |  5901 |       0 |  2141 |     0 |    3541 |        0 |     2 |          0 |   11 |   2227 |  488 |
-| mondo         | 11867 | 30086 | 1448 |  864 |  7150 |    10344 |             0 |  19272 | 10041 |     599 | 10730 |   208 |    2561 |        0 |  4164 |          0 | 4418 |      2 |  725 |
-| efo           |  1243 |  1448 | 2126 |  434 |  1104 |      361 |             0 |   1335 |   317 |      23 |   289 |   525 |     293 |        0 |   410 |          0 | 1194 |      5 |   62 |
-| mesh          |   629 |   864 |  434 | 3178 |    27 |      171 |             0 |   2124 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| ncit          |  4640 |  7150 | 1104 |   27 | 20522 |       37 |             0 |  19442 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| orphanet      |  2219 | 10344 |  361 |  171 |    37 |    15230 |             0 |   8782 | 11625 |       5 |    38 |  7879 |       0 |        0 |     1 |          0 |    5 |      0 |    1 |
-| orphanet.ordo |     0 |     0 |    0 |    0 |     0 |        0 |         15590 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| umls          |  6778 | 19272 | 1335 | 2124 | 19442 |     8782 |             0 | 189003 | 13406 |       0 |     0 |  5662 |   25135 |        0 |     0 |          0 |    0 |   9005 |    0 |
-| omim          |  5901 | 10041 |  317 |    0 |     0 |    11625 |             0 |  13406 | 15286 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| omim.ps       |     0 |   599 |   23 |    0 |     0 |        5 |             0 |      0 |     0 |     594 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| gard          |  2141 | 10730 |  289 |    0 |     0 |       38 |             0 |      0 |     0 |       0 |  6109 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd10         |     0 |   208 |  525 |    0 |     0 |     7879 |             0 |   5662 |     0 |       0 |     0 |  2345 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd10cm       |  3541 |  2561 |  293 |    0 |     0 |        0 |             0 |  25135 |     0 |       0 |     0 |     0 |   21760 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd10pcs      |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd11         |     2 |  4164 |  410 |    0 |     0 |        1 |             0 |      0 |     0 |       0 |     0 |     0 |       0 |        0 | 71175 |          0 |    0 |      0 |    0 |
-| icd11.code    |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd9          |    11 |  4418 | 1194 |    0 |     0 |        5 |             0 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 | 3993 |      0 |    0 |
-| icd9cm        |  2227 |     2 |    5 |    0 |     0 |        0 |             0 |   9005 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |   9134 |    0 |
-| icdo          |   488 |   725 |   62 |    0 |     0 |        1 |             0 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |  797 |
+| source_prefix |  doid | mondo |  efo | mesh |  ncit | orphanet | orphanet.ordo |   umls |  omim | omim.ps | medgen |  gard | icd10 | icd10cm | icd10pcs | icd11 | icd11.code | icd9 | icd9cm | icdo |
+| :------------ | ----: | ----: | ---: | ---: | ----: | -------: | ------------: | -----: | ----: | ------: | -----: | ----: | ----: | ------: | -------: | ----: | ---------: | ---: | -----: | ---: |
+| doid          | 14521 | 11940 | 1233 |  630 |  4633 |        0 |             0 |   6807 |  5962 |       0 |      6 |  2143 |     1 |    3545 |        0 |     2 |          0 |   11 |   2225 |  492 |
+| mondo         | 11940 | 30384 | 1447 |  864 |  7118 |        0 |             0 |  19450 | 10093 |     606 |  21440 | 10730 |   209 |    2564 |        0 |  4636 |          0 | 4415 |      2 |  725 |
+| efo           |  1233 |  1447 | 2108 |  435 |  1087 |        0 |             0 |   1336 |   311 |      23 |   1345 |   288 |   673 |     453 |        0 |   483 |          0 | 1209 |      5 |   61 |
+| mesh          |   630 |   864 |  435 | 3162 |    27 |        0 |             0 |   2135 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| ncit          |  4633 |  7118 | 1087 |   27 | 21845 |        0 |             0 |  20535 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| orphanet      |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| orphanet.ordo |     0 |     0 |    0 |    0 |     0 |        0 |         15799 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| umls          |  6807 | 19450 | 1336 | 2135 | 20535 |        0 |             0 | 191213 | 13542 |       0 |      0 |     0 |  6082 |   25384 |        0 |     0 |          0 |    0 |   9006 |    0 |
+| omim          |  5962 | 10093 |  311 |    0 |     0 |        0 |             0 |  13542 | 15380 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| omim.ps       |     0 |   606 |   23 |    0 |     0 |        0 |             0 |      0 |     0 |     610 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| medgen        |     6 | 21440 | 1345 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |  21440 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| gard          |  2143 | 10730 |  288 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |  6097 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd10         |     1 |   209 |  673 |    0 |     0 |        0 |             0 |   6082 |     0 |       0 |      0 |     0 |  6838 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd10cm       |  3545 |  2564 |  453 |    0 |     0 |        0 |             0 |  25384 |     0 |       0 |      0 |     0 |     0 |   21979 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd10pcs      |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd11         |     2 |  4636 |  483 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |  4636 |          0 |    0 |      0 |    0 |
+| icd11.code    |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd9          |    11 |  4415 | 1209 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 | 3993 |      0 |    0 |
+| icd9cm        |  2225 |     2 |    5 |    0 |     0 |        0 |             0 |   9006 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |   9132 |    0 |
+| icdo          |   492 |   725 |   61 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |  798 |
 
 The raw mappings can be downloaded from
 [![](https://zenodo.org/badge/DOI/10.5281/zenodo.11091885.svg)](https://doi.org/10.5281/zenodo.11091885).
@@ -145,6 +147,7 @@ whose references both use the following prefixes were retained:
 <li>umls</li>
 <li>omim</li>
 <li>omim.ps</li>
+<li>medgen</li>
 <li>gard</li>
 <li>icd10</li>
 <li>icd10cm</li>
@@ -219,6 +222,31 @@ The following prior knowledge was used during processing:
 </tr>
 </tbody>
 </table>
+After processing, only mappings with subjects and objects whose references both
+use the following prefixes were retained:
+
+<ul>
+<li>doid</li>
+<li>mondo</li>
+<li>efo</li>
+<li>mesh</li>
+<li>ncit</li>
+<li>orphanet</li>
+<li>orphanet.ordo</li>
+<li>umls</li>
+<li>omim</li>
+<li>omim.ps</li>
+<li>medgen</li>
+<li>gard</li>
+<li>icd10</li>
+<li>icd10cm</li>
+<li>icd10pcs</li>
+<li>icd11</li>
+<li>icd11.code</li>
+<li>icd9</li>
+<li>icd9cm</li>
+<li>icdo</li>
+</ul>
 
 The processed mappings table has the following qualities:
 
@@ -228,27 +256,28 @@ The processed mappings table has the following qualities:
   are observed in the mappings, in some cases)
 - Only exact matches are retained
 
-| source_prefix |  doid | mondo |  efo | mesh |  ncit | orphanet | orphanet.ordo |   umls |  omim | omim.ps |  gard | icd10 | icd10cm | icd10pcs | icd11 | icd11.code | icd9 | icd9cm | icdo |
-| :------------ | ----: | ----: | ---: | ---: | ----: | -------: | ------------: | -----: | ----: | ------: | ----: | ----: | ------: | -------: | ----: | ---------: | ---: | -----: | ---: |
-| doid          | 14372 | 12435 | 1447 |  807 |  5317 |     3030 |             0 |  10026 |  6300 |      91 |  2625 |  1628 |    3980 |        0 |  1192 |          0 | 2479 |   2807 |  643 |
-| mondo         | 12435 | 30086 | 2031 | 1169 |  7821 |    10963 |             0 |  22876 | 10726 |     620 | 11109 |  3001 |    4157 |        0 |  4260 |          0 | 4589 |   2542 |  806 |
-| efo           |  1447 |  2031 | 2126 |  460 |  1359 |      536 |             0 |   2797 |   391 |      29 |   437 |   856 |    1190 |        0 |   530 |          0 | 1366 |    812 |   99 |
-| mesh          |   807 |  1169 |  460 | 3178 |   576 |      264 |             0 |   2704 |    91 |       4 |   228 |   446 |     895 |        0 |   324 |          0 |  674 |    654 |    4 |
-| ncit          |  5317 |  7821 | 1359 |  576 | 20522 |      957 |             0 |  21169 |   406 |      37 |   943 |  1564 |    2208 |        0 |  1028 |          0 | 1546 |   1593 |  536 |
-| orphanet      |  3030 | 10963 |  536 |  264 |   957 |    15230 |             0 |  10545 | 11728 |      57 |  1952 |  7957 |    1226 |        0 |  1117 |          0 |  681 |    679 |   97 |
-| orphanet.ordo |     0 |     0 |    0 |    0 |     0 |        0 |         15590 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| umls          | 10026 | 22876 | 2797 | 2704 | 21169 |    10545 |             0 | 189003 | 13529 |     128 |  3136 |  7345 |   26041 |        0 |  2898 |          0 | 3915 |   9702 |  632 |
-| omim          |  6300 | 10726 |  391 |   91 |   406 |    11728 |             0 |  13529 | 15286 |      77 |   580 |   525 |     471 |        0 |   361 |          0 |  321 |    299 |   25 |
-| omim.ps       |    91 |   620 |   29 |    4 |    37 |       57 |             0 |    128 |    77 |     594 |    38 |    20 |      34 |        0 |    28 |          0 |   15 |     18 |    0 |
-| gard          |  2625 | 11109 |  437 |  228 |   943 |     1952 |             0 |   3136 |   580 |      38 |  6109 |   703 |    1227 |        0 |   909 |          0 |  635 |    713 |  107 |
-| icd10         |  1628 |  3001 |  856 |  446 |  1564 |     7957 |             0 |   7345 |   525 |      20 |   703 |  2345 |    4473 |        0 |  1068 |          0 | 1798 |   2338 |   82 |
-| icd10cm       |  3980 |  4157 | 1190 |  895 |  2208 |     1226 |             0 |  26041 |   471 |      34 |  1227 |  4473 |   21760 |        0 |  1532 |          0 | 2298 |   3582 |  108 |
-| icd10pcs      |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd11         |  1192 |  4260 |  530 |  324 |  1028 |     1117 |             0 |   2898 |   361 |      28 |   909 |  1068 |    1532 |        0 | 71175 |          0 | 1026 |   1021 |   75 |
-| icd11.code    |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd9          |  2479 |  4589 | 1366 |  674 |  1546 |      681 |             0 |   3915 |   321 |      15 |   635 |  1798 |    2298 |        0 |  1026 |          0 | 3993 |   2404 |   44 |
-| icd9cm        |  2807 |  2542 |  812 |  654 |  1593 |      679 |             0 |   9702 |   299 |      18 |   713 |  2338 |    3582 |        0 |  1021 |          0 | 2404 |   9134 |   49 |
-| icdo          |   643 |   806 |   99 |    4 |   536 |       97 |             0 |    632 |    25 |       0 |   107 |    82 |     108 |        0 |    75 |          0 |   44 |     49 |  797 |
+| source_prefix |  doid | mondo |  efo | mesh |  ncit | orphanet | orphanet.ordo |   umls |  omim | omim.ps | medgen |  gard | icd10 | icd10cm | icd10pcs | icd11 | icd11.code | icd9 | icd9cm | icdo |
+| :------------ | ----: | ----: | ---: | ---: | ----: | -------: | ------------: | -----: | ----: | ------: | -----: | ----: | ----: | ------: | -------: | ----: | ---------: | ---: | -----: | ---: |
+| doid          | 14521 | 12347 | 1409 |  772 |  5289 |        0 |             0 |   9765 |  6350 |      72 |   5490 |  2541 |  1561 |    3870 |        0 |  1352 |          0 | 2448 |   2749 |  647 |
+| mondo         | 12347 | 30384 | 1918 | 1099 |  7701 |        0 |             0 |  22634 | 10859 |     634 |  21457 | 11042 |  1876 |    3707 |        0 |  4707 |          0 | 4548 |   2330 |  801 |
+| efo           |  1409 |  1918 | 2108 |  456 |  1316 |        0 |             0 |   2597 |   371 |      28 |   1744 |   410 |  1119 |    1146 |        0 |   597 |          0 | 1343 |    766 |   96 |
+| mesh          |   772 |  1099 |  456 | 3162 |   553 |        0 |             0 |   2563 |    75 |       4 |    804 |   197 |   537 |     738 |        0 |   330 |          0 |  637 |    597 |    4 |
+| ncit          |  5289 |  7701 | 1316 |  553 | 21845 |        0 |             0 |  21963 |   380 |      36 |   4690 |   876 |  1406 |    2008 |        0 |  1180 |          0 | 1533 |   1523 |  532 |
+| orphanet      |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| orphanet.ordo |     0 |     0 |    0 |    0 |     0 |        0 |         15799 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| umls          |  9765 | 22634 | 2597 | 2563 | 21963 |        0 |             0 | 191213 | 13634 |     105 |  10848 |  2620 |  6188 |   26176 |        0 |  2937 |          0 | 3665 |   9562 |  597 |
+| omim          |  6350 | 10859 |  371 |   75 |   380 |        0 |             0 |  13634 | 15380 |      47 |   3306 |   549 |   217 |     327 |        0 |   322 |          0 |  266 |    224 |   23 |
+| omim.ps       |    72 |   634 |   28 |    4 |    36 |        0 |             0 |    105 |    47 |     610 |    104 |    40 |    19 |      34 |        0 |    35 |          0 |   20 |     20 |    0 |
+| medgen        |  5490 | 21457 | 1744 |  804 |  4690 |        0 |             0 |  10848 |  3306 |     104 |  21440 |  2264 |  1733 |    2699 |        0 |  2077 |          0 | 2598 |   2279 |  483 |
+| gard          |  2541 | 11042 |  410 |  197 |   876 |        0 |             0 |   2620 |   549 |      40 |   2264 |  6097 |   546 |     815 |        0 |   936 |          0 |  621 |    526 |  107 |
+| icd10         |  1561 |  1876 | 1119 |  537 |  1406 |        0 |             0 |   6188 |   217 |      19 |   1733 |   546 |  6838 |    4270 |        0 |   977 |          0 | 1671 |   2249 |   43 |
+| icd10cm       |  3870 |  3707 | 1146 |  738 |  2008 |        0 |             0 |  26176 |   327 |      34 |   2699 |   815 |  4270 |   21979 |        0 |  1476 |          0 | 2130 |   3529 |   88 |
+| icd10pcs      |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd11         |  1352 |  4707 |  597 |  330 |  1180 |        0 |             0 |   2937 |   322 |      35 |   2077 |   936 |   977 |    1476 |        0 |  4636 |          0 | 1228 |   1120 |   80 |
+| icd11.code    |     0 |     0 |    0 |    0 |     0 |        0 |             0 |      0 |     0 |       0 |      0 |     0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd9          |  2448 |  4548 | 1343 |  637 |  1533 |        0 |             0 |   3665 |   266 |      20 |   2598 |   621 |  1671 |    2130 |        0 |  1228 |          0 | 3993 |   2370 |   44 |
+| icd9cm        |  2749 |  2330 |  766 |  597 |  1523 |        0 |             0 |   9562 |   224 |      20 |   2279 |   526 |  2249 |    3529 |        0 |  1120 |          0 | 2370 |   9132 |   33 |
+| icdo          |   647 |   801 |   96 |    4 |   532 |        0 |             0 |    597 |    23 |       0 |    483 |   107 |    43 |      88 |        0 |    80 |          0 |   44 |     33 |  798 |
 
 The processed mappings can be downloaded from
 [![](https://zenodo.org/badge/DOI/10.5281/zenodo.11091885.svg)](https://doi.org/10.5281/zenodo.11091885).
@@ -289,6 +318,7 @@ The prioritization for this output is:
 <li><a href="https://bioregistry.io/umls">Unified Medical Language System Concept Unique Identifier (<code>umls</code>)</a></li>
 <li><a href="https://bioregistry.io/omim">Online Mendelian Inheritance in Man (<code>omim</code>)</a></li>
 <li><a href="https://bioregistry.io/omim.ps">OMIM Phenotypic Series (<code>omim.ps</code>)</a></li>
+<li><a href="https://bioregistry.io/medgen">Human Medical Genetics (<code>medgen</code>)</a></li>
 <li><a href="https://bioregistry.io/gard">Genetic and Rare Diseases Information Center (<code>gard</code>)</a></li>
 <li><a href="https://bioregistry.io/icd10">International Classification of Diseases, 10th Revision (<code>icd10</code>)</a></li>
 <li><a href="https://bioregistry.io/icd10cm">International Classification of Diseases, 10th Revision, Clinical Modification (<code>icd10cm</code>)</a></li>
@@ -338,27 +368,28 @@ processing/inference. Across the board, this process adds large numbers of
 mappings to most resources, especially ones that were previously only connected
 to a small number of other resources.
 
-| source_prefix | doid | mondo |  efo | mesh | ncit | orphanet | orphanet.ordo | umls | omim | omim.ps | gard | icd10 | icd10cm | icd10pcs | icd11 | icd11.code | icd9 | icd9cm | icdo |
-| :------------ | ---: | ----: | ---: | ---: | ---: | -------: | ------------: | ---: | ---: | ------: | ---: | ----: | ------: | -------: | ----: | ---------: | ---: | -----: | ---: |
-| doid          |    0 |   568 |  204 |  178 |  677 |      811 |             0 | 3248 |  399 |      91 |  484 |  1628 |     439 |        0 |  1190 |          0 | 2468 |    580 |  155 |
-| mondo         |  568 |     0 |  583 |  305 |  671 |      619 |             0 | 3604 |  685 |      21 |  379 |  2793 |    1596 |        0 |    96 |          0 |  171 |   2540 |   81 |
-| efo           |  204 |   583 |    0 |   26 |  255 |      175 |             0 | 1462 |   74 |       6 |  148 |   331 |     897 |        0 |   120 |          0 |  172 |    807 |   37 |
-| mesh          |  178 |   305 |   26 |    0 |  549 |       93 |             0 |  580 |   91 |       4 |  228 |   446 |     895 |        0 |   324 |          0 |  674 |    654 |    4 |
-| ncit          |  677 |   671 |  255 |  549 |    0 |      920 |             0 | 1727 |  406 |      37 |  943 |  1564 |    2208 |        0 |  1028 |          0 | 1546 |   1593 |  536 |
-| orphanet      |  811 |   619 |  175 |   93 |  920 |        0 |             0 | 1763 |  103 |      52 | 1914 |    78 |    1226 |        0 |  1116 |          0 |  676 |    679 |   96 |
-| orphanet.ordo |    0 |     0 |    0 |    0 |    0 |        0 |             0 |    0 |    0 |       0 |    0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| umls          | 3248 |  3604 | 1462 |  580 | 1727 |     1763 |             0 |    0 |  123 |     128 | 3136 |  1683 |     906 |        0 |  2898 |          0 | 3915 |    697 |  632 |
-| omim          |  399 |   685 |   74 |   91 |  406 |      103 |             0 |  123 |    0 |      77 |  580 |   525 |     471 |        0 |   361 |          0 |  321 |    299 |   25 |
-| omim.ps       |   91 |    21 |    6 |    4 |   37 |       52 |             0 |  128 |   77 |       0 |   38 |    20 |      34 |        0 |    28 |          0 |   15 |     18 |    0 |
-| gard          |  484 |   379 |  148 |  228 |  943 |     1914 |             0 | 3136 |  580 |      38 |    0 |   703 |    1227 |        0 |   909 |          0 |  635 |    713 |  107 |
-| icd10         | 1628 |  2793 |  331 |  446 | 1564 |       78 |             0 | 1683 |  525 |      20 |  703 |     0 |    4473 |        0 |  1068 |          0 | 1798 |   2338 |   82 |
-| icd10cm       |  439 |  1596 |  897 |  895 | 2208 |     1226 |             0 |  906 |  471 |      34 | 1227 |  4473 |       0 |        0 |  1532 |          0 | 2298 |   3582 |  108 |
-| icd10pcs      |    0 |     0 |    0 |    0 |    0 |        0 |             0 |    0 |    0 |       0 |    0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd11         | 1190 |    96 |  120 |  324 | 1028 |     1116 |             0 | 2898 |  361 |      28 |  909 |  1068 |    1532 |        0 |     0 |          0 | 1026 |   1021 |   75 |
-| icd11.code    |    0 |     0 |    0 |    0 |    0 |        0 |             0 |    0 |    0 |       0 |    0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
-| icd9          | 2468 |   171 |  172 |  674 | 1546 |      676 |             0 | 3915 |  321 |      15 |  635 |  1798 |    2298 |        0 |  1026 |          0 |    0 |   2404 |   44 |
-| icd9cm        |  580 |  2540 |  807 |  654 | 1593 |      679 |             0 |  697 |  299 |      18 |  713 |  2338 |    3582 |        0 |  1021 |          0 | 2404 |      0 |   49 |
-| icdo          |  155 |    81 |   37 |    4 |  536 |       96 |             0 |  632 |   25 |       0 |  107 |    82 |     108 |        0 |    75 |          0 |   44 |     49 |    0 |
+| source_prefix | doid | mondo |  efo | mesh | ncit | orphanet | orphanet.ordo |  umls | omim | omim.ps | medgen | gard | icd10 | icd10cm | icd10pcs | icd11 | icd11.code | icd9 | icd9cm | icdo |
+| :------------ | ---: | ----: | ---: | ---: | ---: | -------: | ------------: | ----: | ---: | ------: | -----: | ---: | ----: | ------: | -------: | ----: | ---------: | ---: | -----: | ---: |
+| doid          |    0 |   407 |  176 |  142 |  656 |        0 |             0 |  2958 |  388 |      72 |   5484 |  398 |  1560 |     325 |        0 |  1350 |          0 | 2437 |    524 |  155 |
+| mondo         |  407 |     0 |  471 |  235 |  583 |        0 |             0 |  3184 |  766 |      28 |     17 |  312 |  1667 |    1143 |        0 |    71 |          0 |  133 |   2328 |   76 |
+| efo           |  176 |   471 |    0 |   21 |  229 |        0 |             0 |  1261 |   60 |       5 |    399 |  122 |   446 |     693 |        0 |   114 |          0 |  134 |    761 |   35 |
+| mesh          |  142 |   235 |   21 |    0 |  526 |        0 |             0 |   428 |   75 |       4 |    804 |  197 |   537 |     738 |        0 |   330 |          0 |  637 |    597 |    4 |
+| ncit          |  656 |   583 |  229 |  526 |    0 |        0 |             0 |  1428 |  380 |      36 |   4690 |  876 |  1406 |    2008 |        0 |  1180 |          0 | 1533 |   1523 |  532 |
+| orphanet      |    0 |     0 |    0 |    0 |    0 |        0 |             0 |     0 |    0 |       0 |      0 |    0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| orphanet.ordo |    0 |     0 |    0 |    0 |    0 |        0 |             0 |     0 |    0 |       0 |      0 |    0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| umls          | 2958 |  3184 | 1261 |  428 | 1428 |        0 |             0 |     0 |   92 |     105 |  10848 | 2620 |   106 |     792 |        0 |  2937 |          0 | 3665 |    556 |  597 |
+| omim          |  388 |   766 |   60 |   75 |  380 |        0 |             0 |    92 |    0 |      47 |   3306 |  549 |   217 |     327 |        0 |   322 |          0 |  266 |    224 |   23 |
+| omim.ps       |   72 |    28 |    5 |    4 |   36 |        0 |             0 |   105 |   47 |       0 |    104 |   40 |    19 |      34 |        0 |    35 |          0 |   20 |     20 |    0 |
+| medgen        | 5484 |    17 |  399 |  804 | 4690 |        0 |             0 | 10848 | 3306 |     104 |      0 | 2264 |  1733 |    2699 |        0 |  2077 |          0 | 2598 |   2279 |  483 |
+| gard          |  398 |   312 |  122 |  197 |  876 |        0 |             0 |  2620 |  549 |      40 |   2264 |    0 |   546 |     815 |        0 |   936 |          0 |  621 |    526 |  107 |
+| icd10         | 1560 |  1667 |  446 |  537 | 1406 |        0 |             0 |   106 |  217 |      19 |   1733 |  546 |     0 |    4270 |        0 |   977 |          0 | 1671 |   2249 |   43 |
+| icd10cm       |  325 |  1143 |  693 |  738 | 2008 |        0 |             0 |   792 |  327 |      34 |   2699 |  815 |  4270 |       0 |        0 |  1476 |          0 | 2130 |   3529 |   88 |
+| icd10pcs      |    0 |     0 |    0 |    0 |    0 |        0 |             0 |     0 |    0 |       0 |      0 |    0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd11         | 1350 |    71 |  114 |  330 | 1180 |        0 |             0 |  2937 |  322 |      35 |   2077 |  936 |   977 |    1476 |        0 |     0 |          0 | 1228 |   1120 |   80 |
+| icd11.code    |    0 |     0 |    0 |    0 |    0 |        0 |             0 |     0 |    0 |       0 |      0 |    0 |     0 |       0 |        0 |     0 |          0 |    0 |      0 |    0 |
+| icd9          | 2437 |   133 |  134 |  637 | 1533 |        0 |             0 |  3665 |  266 |      20 |   2598 |  621 |  1671 |    2130 |        0 |  1228 |          0 |    0 |   2370 |   44 |
+| icd9cm        |  524 |  2328 |  761 |  597 | 1523 |        0 |             0 |   556 |  224 |      20 |   2279 |  526 |  2249 |    3529 |        0 |  1120 |          0 | 2370 |      0 |   33 |
+| icdo          |  155 |    76 |   35 |    4 |  532 |        0 |             0 |   597 |   23 |       0 |    483 |  107 |    43 |      88 |        0 |    80 |          0 |   44 |     33 |    0 |
 
 Here's an alternative view on the number of mappings normalized to show
 percentage gain. Note that:
@@ -368,27 +399,28 @@ percentage gain. Note that:
 - `NaN` means there were no mappings before inference and continue to be no
   mappings after inference
 
-| source_prefix |    doid |  mondo |   efo |   mesh |   ncit | orphanet | orphanet.ordo |  umls | omim | omim.ps |   gard |  icd10 | icd10cm | icd10pcs |  icd11 | icd11.code |    icd9 | icd9cm | icdo |
-| :------------ | ------: | -----: | ----: | -----: | -----: | -------: | ------------: | ----: | ---: | ------: | -----: | -----: | ------: | -------: | -----: | ---------: | ------: | -----: | ---: |
-| doid          |       0 |    4.8 |  16.4 |   28.3 |   14.6 |     36.5 |           nan |  47.9 |  6.8 |     inf |   22.6 |    inf |    12.4 |      nan |  59500 |        nan | 22436.4 |     26 | 31.8 |
-| mondo         |     4.8 |      0 |  40.3 |   35.3 |    9.4 |        6 |           nan |  18.7 |  6.8 |     3.5 |    3.5 | 1342.8 |    62.3 |      nan |    2.3 |        nan |     3.9 | 127000 | 11.2 |
-| efo           |    16.4 |   40.3 |     0 |      6 |   23.1 |     48.5 |           nan | 109.5 | 23.3 |    26.1 |   51.2 |     63 |   306.1 |      nan |   29.3 |        nan |    14.4 |  16140 | 59.7 |
-| mesh          |    28.3 |   35.3 |     6 |      0 | 2033.3 |     54.4 |           nan |  27.3 |  inf |     inf |    inf |    inf |     inf |      nan |    inf |        nan |     inf |    inf |  inf |
-| ncit          |    14.6 |    9.4 |  23.1 | 2033.3 |      0 |   2486.5 |           nan |   8.9 |  inf |     inf |    inf |    inf |     inf |      nan |    inf |        nan |     inf |    inf |  inf |
-| orphanet      |    36.5 |      6 |  48.5 |   54.4 | 2486.5 |        0 |           nan |  20.1 |  0.9 |    1040 | 5036.8 |      1 |     inf |      nan | 111600 |        nan |   13520 |    inf | 9600 |
-| orphanet.ordo |     nan |    nan |   nan |    nan |    nan |      nan |             0 |   nan |  nan |     nan |    nan |    nan |     nan |      nan |    nan |        nan |     nan |    nan |  nan |
-| umls          |    47.9 |   18.7 | 109.5 |   27.3 |    8.9 |     20.1 |           nan |     0 |  0.9 |     inf |    inf |   29.7 |     3.6 |      nan |    inf |        nan |     inf |    7.7 |  inf |
-| omim          |     6.8 |    6.8 |  23.3 |    inf |    inf |      0.9 |           nan |   0.9 |    0 |     inf |    inf |    inf |     inf |      nan |    inf |        nan |     inf |    inf |  inf |
-| omim.ps       |     inf |    3.5 |  26.1 |    inf |    inf |     1040 |           nan |   inf |  inf |       0 |    inf |    inf |     inf |      nan |    inf |        nan |     inf |    inf |  nan |
-| gard          |    22.6 |    3.5 |  51.2 |    inf |    inf |   5036.8 |           nan |   inf |  inf |     inf |      0 |    inf |     inf |      nan |    inf |        nan |     inf |    inf |  inf |
-| icd10         |     inf | 1342.8 |    63 |    inf |    inf |        1 |           nan |  29.7 |  inf |     inf |    inf |      0 |     inf |      nan |    inf |        nan |     inf |    inf |  inf |
-| icd10cm       |    12.4 |   62.3 | 306.1 |    inf |    inf |      inf |           nan |   3.6 |  inf |     inf |    inf |    inf |       0 |      nan |    inf |        nan |     inf |    inf |  inf |
-| icd10pcs      |     nan |    nan |   nan |    nan |    nan |      nan |           nan |   nan |  nan |     nan |    nan |    nan |     nan |      nan |    nan |        nan |     nan |    nan |  nan |
-| icd11         |   59500 |    2.3 |  29.3 |    inf |    inf |   111600 |           nan |   inf |  inf |     inf |    inf |    inf |     inf |      nan |      0 |        nan |     inf |    inf |  inf |
-| icd11.code    |     nan |    nan |   nan |    nan |    nan |      nan |           nan |   nan |  nan |     nan |    nan |    nan |     nan |      nan |    nan |        nan |     nan |    nan |  nan |
-| icd9          | 22436.4 |    3.9 |  14.4 |    inf |    inf |    13520 |           nan |   inf |  inf |     inf |    inf |    inf |     inf |      nan |    inf |        nan |       0 |    inf |  inf |
-| icd9cm        |      26 | 127000 | 16140 |    inf |    inf |      inf |           nan |   7.7 |  inf |     inf |    inf |    inf |     inf |      nan |    inf |        nan |     inf |      0 |  inf |
-| icdo          |    31.8 |   11.2 |  59.7 |    inf |    inf |     9600 |           nan |   inf |  inf |     nan |    inf |    inf |     inf |      nan |    inf |        nan |     inf |    inf |    0 |
+| source_prefix |    doid |  mondo |   efo |   mesh |   ncit | orphanet | orphanet.ordo | umls | omim | omim.ps | medgen | gard |  icd10 | icd10cm | icd10pcs | icd11 | icd11.code |    icd9 | icd9cm | icdo |
+| :------------ | ------: | -----: | ----: | -----: | -----: | -------: | ------------: | ---: | ---: | ------: | -----: | ---: | -----: | ------: | -------: | ----: | ---------: | ------: | -----: | ---: |
+| doid          |       0 |    3.4 |  14.3 |   22.5 |   14.2 |      nan |           nan | 43.5 |  6.5 |     inf |  91400 | 18.6 | 156000 |     9.2 |      nan | 67500 |        nan | 22154.5 |   23.6 | 31.5 |
+| mondo         |     3.4 |      0 |  32.6 |   27.2 |    8.2 |      nan |           nan | 16.4 |  7.6 |     4.6 |    0.1 |  2.9 |  797.6 |    44.6 |      nan |   1.5 |        nan |       3 | 116400 | 10.5 |
+| efo           |    14.3 |   32.6 |     0 |    4.8 |   21.1 |      nan |           nan | 94.4 | 19.3 |    21.7 |   29.7 | 42.4 |   66.3 |     153 |      nan |  23.6 |        nan |    11.1 |  15220 | 57.4 |
+| mesh          |    22.5 |   27.2 |   4.8 |      0 | 1948.1 |      nan |           nan |   20 |  inf |     inf |    inf |  inf |    inf |     inf |      nan |   inf |        nan |     inf |    inf |  inf |
+| ncit          |    14.2 |    8.2 |  21.1 | 1948.1 |      0 |      nan |           nan |    7 |  inf |     inf |    inf |  inf |    inf |     inf |      nan |   inf |        nan |     inf |    inf |  inf |
+| orphanet      |     nan |    nan |   nan |    nan |    nan |      nan |           nan |  nan |  nan |     nan |    nan |  nan |    nan |     nan |      nan |   nan |        nan |     nan |    nan |  nan |
+| orphanet.ordo |     nan |    nan |   nan |    nan |    nan |      nan |             0 |  nan |  nan |     nan |    nan |  nan |    nan |     nan |      nan |   nan |        nan |     nan |    nan |  nan |
+| umls          |    43.5 |   16.4 |  94.4 |     20 |      7 |      nan |           nan |    0 |  0.7 |     inf |    inf |  inf |    1.7 |     3.1 |      nan |   inf |        nan |     inf |    6.2 |  inf |
+| omim          |     6.5 |    7.6 |  19.3 |    inf |    inf |      nan |           nan |  0.7 |    0 |     inf |    inf |  inf |    inf |     inf |      nan |   inf |        nan |     inf |    inf |  inf |
+| omim.ps       |     inf |    4.6 |  21.7 |    inf |    inf |      nan |           nan |  inf |  inf |       0 |    inf |  inf |    inf |     inf |      nan |   inf |        nan |     inf |    inf |  nan |
+| medgen        |   91400 |    0.1 |  29.7 |    inf |    inf |      nan |           nan |  inf |  inf |     inf |      0 |  inf |    inf |     inf |      nan |   inf |        nan |     inf |    inf |  inf |
+| gard          |    18.6 |    2.9 |  42.4 |    inf |    inf |      nan |           nan |  inf |  inf |     inf |    inf |    0 |    inf |     inf |      nan |   inf |        nan |     inf |    inf |  inf |
+| icd10         |  156000 |  797.6 |  66.3 |    inf |    inf |      nan |           nan |  1.7 |  inf |     inf |    inf |  inf |      0 |     inf |      nan |   inf |        nan |     inf |    inf |  inf |
+| icd10cm       |     9.2 |   44.6 |   153 |    inf |    inf |      nan |           nan |  3.1 |  inf |     inf |    inf |  inf |    inf |       0 |      nan |   inf |        nan |     inf |    inf |  inf |
+| icd10pcs      |     nan |    nan |   nan |    nan |    nan |      nan |           nan |  nan |  nan |     nan |    nan |  nan |    nan |     nan |      nan |   nan |        nan |     nan |    nan |  nan |
+| icd11         |   67500 |    1.5 |  23.6 |    inf |    inf |      nan |           nan |  inf |  inf |     inf |    inf |  inf |    inf |     inf |      nan |     0 |        nan |     inf |    inf |  inf |
+| icd11.code    |     nan |    nan |   nan |    nan |    nan |      nan |           nan |  nan |  nan |     nan |    nan |  nan |    nan |     nan |      nan |   nan |        nan |     nan |    nan |  nan |
+| icd9          | 22154.5 |      3 |  11.1 |    inf |    inf |      nan |           nan |  inf |  inf |     inf |    inf |  inf |    inf |     inf |      nan |   inf |        nan |       0 |    inf |  inf |
+| icd9cm        |    23.6 | 116400 | 15220 |    inf |    inf |      nan |           nan |  6.2 |  inf |     inf |    inf |  inf |    inf |     inf |      nan |   inf |        nan |     inf |      0 |  inf |
+| icdo          |    31.5 |   10.5 |  57.4 |    inf |    inf |      nan |           nan |  inf |  inf |     nan |    inf |  inf |    inf |     inf |      nan |   inf |        nan |     inf |    inf |    0 |
 
 ### Landscape Analysis
 
@@ -396,19 +428,19 @@ Above, the comparison looked at the overlaps between each resource. Now, that
 information is used to jointly estimate the number of terms in the landscape
 itself, and estimate how much of the landscape each resource covers.
 
-This estimates a total of 194,155 unique entities.
+This estimates a total of 127,901 unique entities.
 
-- 43,605 (22.5%) have at least one mapping.
-- 150,550 (77.5%) are unique to a single resource.
-- 0 (0.0%) appear in all 19 resources.
+- 44,945 (35.1%) have at least one mapping.
+- 82,956 (64.9%) are unique to a single resource.
+- 0 (0.0%) appear in all 20 resources.
 
 This estimate is susceptible to several caveats:
 
 - Missing mappings inflates this measurement
 - Generic resources like MeSH contain irrelevant entities that can't be mapped
 
-Because there are 19 prefixes, there are 524,287 possible overlaps to consider.
-Therefore, a Venn diagram is not possible, so an
+Because there are 20 prefixes, there are 1,048,575 possible overlaps to
+consider. Therefore, a Venn diagram is not possible, so an
 [UpSet plot](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4720993) (Lex _et
 al._, 2014) is used as a high-dimensional Venn diagram.
 
@@ -419,11 +451,11 @@ number that appear in each group of resources.
 
 ![](processed_landscape_histogram.svg)
 
-The landscape of 19 resources has 421,300 total terms. After merging redundant
-nodes based on mappings, inference, and reasoning, there are 194,155 unique
+The landscape of 20 resources has 369,935 total terms. After merging redundant
+nodes based on mappings, inference, and reasoning, there are 127,901 unique
 concepts. Using the reduction formula
 $\frac{{\text{{total terms}} - \text{{reduced terms}}}}{{\text{{total terms}}}}$,
-this is a 53.92% reduction.
+this is a 65.43% reduction.
 
 This is only an estimate and is susceptible to a few things:
 

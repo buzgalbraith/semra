@@ -108,6 +108,7 @@ PREFIXES = PRIORITY = [
     "omim",
     "omim.ps",
     # "snomedct",
+    "medgen",
     "gard",
     *ICD_PREFIXES,
 ]
@@ -115,11 +116,11 @@ PREFIXES = PRIORITY = [
 SUBSETS = {
     # created with [*get_mesh_category_references("C"), *get_mesh_category_references("F")]
     "mesh": [
-        Reference(prefix="mesh", identifier="D007239"),
-        Reference(prefix="mesh", identifier="D001520"),
-        Reference(prefix="mesh", identifier="D011579"),
-        Reference(prefix="mesh", identifier="D001523"),
-        Reference(prefix="mesh", identifier="D004191"),
+        Reference(prefix="mesh", identifier="D007239", name=None),
+        Reference(prefix="mesh", identifier="D001520", name = None),
+        Reference(prefix="mesh", identifier="D011579", name = None),
+        Reference(prefix="mesh", identifier="D001523", name = None),
+        Reference(prefix="mesh", identifier="D004191", name = None),
     ],
     "efo": [Reference.from_curie("efo:0000408")],
     "ncit": [Reference.from_curie("ncit:C2991")],
@@ -158,17 +159,20 @@ DISEASE_CONFIGURATION = Configuration(
     keep_prefixes=PREFIXES,
     remove_imprecise=False,
     mutations=[
-        Mutation(source="doid", confidence=0.95),
-        Mutation(source="mondo", confidence=0.95),
-        Mutation(source="efo", confidence=0.90),
-        Mutation(source="ncit", confidence=0.7),
-        Mutation(source="umls", confidence=0.7),
-        Mutation(source="orphanet.ordo", confidence=0.7),
-        Mutation(source="orphanet", confidence=0.7),
+        Mutation(source="doid", target=None, confidence=0.95),
+        Mutation(source="mondo", target=None, confidence=0.95),
+        Mutation(source="efo", target=None, confidence=0.90),
+        Mutation(source="ncit", target=None, confidence=0.7),
+        Mutation(source="umls", target=None, confidence=0.7),
+        Mutation(source="orphanet.ordo",target=None,  confidence=0.7),
+        Mutation(source="orphanet", target=None, confidence=0.7),
         # Mutation(source="hp", confidence=0.7),
     ],
     zenodo_record=11091885,
     directory=MODULE.base,
+    remove_prefixes=None, 
+    post_remove_prefixes=None, 
+    post_keep_prefixes=PREFIXES
 )
 
 
