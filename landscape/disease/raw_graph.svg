@@ -461,19 +461,19 @@
 <text xml:space="preserve" text-anchor="middle" x="1235.02" y="-3597.54" font-family="Times,serif" font-size="14.00">28</text>
 </g>
 <!-- orpha
-66 -->
+15,288 -->
 <g id="node27" class="node">
 <title>orpha
-66</title>
-<ellipse fill="none" stroke="black" cx="1531.57" cy="-925" rx="33.06" ry="28.99"/>
+15,288</title>
+<ellipse fill="none" stroke="black" cx="1531.57" cy="-925" rx="37.83" ry="28.99"/>
 <text xml:space="preserve" text-anchor="middle" x="1531.57" y="-928.2" font-family="Times,serif" font-size="14.00">orpha</text>
-<text xml:space="preserve" text-anchor="middle" x="1531.57" y="-911.7" font-family="Times,serif" font-size="14.00">66</text>
+<text xml:space="preserve" text-anchor="middle" x="1531.57" y="-911.7" font-family="Times,serif" font-size="14.00">15,288</text>
 </g>
 <!-- snomedct&#45;&#45;orpha
-66 -->
+15,288 -->
 <g id="edge150" class="edge">
 <title>snomedct&#45;&#45;orpha
-66</title>
+15,288</title>
 <path fill="none" stroke="black" d="M1356.08,-1803.09C1370.74,-1787.36 1391.8,-1762.7 1405.18,-1738 1442.83,-1668.48 1443.99,-1646.28 1460.68,-1569 1511.13,-1335.4 1525.98,-1045.88 1529.57,-954.23"/>
 <text xml:space="preserve" text-anchor="middle" x="1441.93" y="-1704.35" font-family="Times,serif" font-size="14.00">39</text>
 </g>
@@ -776,11 +776,11 @@
 </g>
 <!-- doid
 14,521&#45;&#45;orpha
-66 -->
+15,288 -->
 <g id="edge23" class="edge">
 <title>doid
 14,521&#45;&#45;orpha
-66</title>
+15,288</title>
 <path fill="none" stroke="black" d="M80.85,-456.21C97.12,-386.82 149.02,-216 265.87,-216 265.87,-216 265.87,-216 733.19,-216 886.64,-216 1302.34,-261.1 1405.18,-375 1476.31,-453.78 1516.88,-793.43 1527.64,-895.73"/>
 <text xml:space="preserve" text-anchor="middle" x="833.28" y="-228.61" font-family="Times,serif" font-size="14.00">2,244</text>
 </g>
@@ -916,12 +916,12 @@
 </g>
 <!-- umls
 191,213&#45;&#45;orpha
-66 -->
+15,288 -->
 <g id="edge35" class="edge">
 <title>umls
 191,213&#45;&#45;orpha
-66</title>
-<path fill="none" stroke="black" d="M303.05,-714.06C349,-692.85 431.51,-653.43 498.93,-614 529.82,-595.94 535.29,-587.88 565.68,-569 622.08,-533.98 640.39,-532.11 695.44,-495 729.94,-471.74 730.46,-452.84 768.94,-437 834.45,-410.03 1349.62,-351.05 1405.18,-395 1425.5,-411.08 1502.99,-788.37 1524.81,-896.36"/>
+15,288</title>
+<path fill="none" stroke="black" d="M303.05,-714.06C349,-692.85 431.51,-653.43 498.93,-614 529.82,-595.94 535.29,-587.88 565.68,-569 622.08,-533.98 640.39,-532.11 695.44,-495 729.94,-471.74 730.46,-452.84 768.94,-437 834.45,-410.03 1349.62,-351.05 1405.18,-395 1425.48,-411.06 1502.81,-787.51 1524.74,-895.99"/>
 <text xml:space="preserve" text-anchor="middle" x="931" y="-411.99" font-family="Times,serif" font-size="14.00">9,028</text>
 </g>
 <!-- umls
@@ -1107,11 +1107,11 @@
 </g>
 <!-- efo
 2,108&#45;&#45;orpha
-66 -->
+15,288 -->
 <g id="edge51" class="edge">
 <title>efo
 2,108&#45;&#45;orpha
-66</title>
+15,288</title>
 <path fill="none" stroke="black" d="M475.47,-1189.78C551.64,-1201.07 749.69,-1229.94 915.63,-1250 1043.03,-1265.4 1105.52,-1220.32 1198.27,-1309 1215.34,-1325.32 1199.7,-1342.16 1216.27,-1359 1234.77,-1377.8 1245.83,-1375.26 1271.77,-1380 1330.1,-1390.67 1358.01,-1415.93 1405.18,-1380 1474.76,-1327 1515.49,-1045.94 1527.1,-954.07"/>
 <text xml:space="preserve" text-anchor="middle" x="1009.59" y="-1256.77" font-family="Times,serif" font-size="14.00">362</text>
 </g>
@@ -1311,12 +1311,12 @@
 </g>
 <!-- mesh
 3,162&#45;&#45;orpha
-66 -->
+15,288 -->
 <g id="edge68" class="edge">
 <title>mesh
 3,162&#45;&#45;orpha
-66</title>
-<path fill="none" stroke="black" d="M664,-1266.42C771.43,-1268.43 1113.61,-1279.91 1198.27,-1345 1213.4,-1356.64 1204.25,-1369.17 1216.27,-1384 1229.36,-1400.16 1241.85,-1394.96 1253.77,-1412 1269.73,-1434.81 1249.43,-1455.38 1271.77,-1472 1319.34,-1507.39 1350.75,-1495.53 1405.18,-1472 1438.23,-1457.72 1445.07,-1445.44 1460.68,-1413 1500.3,-1330.67 1522.44,-1046.25 1528.7,-954.08"/>
+15,288</title>
+<path fill="none" stroke="black" d="M664,-1266.42C771.43,-1268.43 1113.61,-1279.91 1198.27,-1345 1213.4,-1356.64 1204.25,-1369.17 1216.27,-1384 1229.36,-1400.16 1241.85,-1394.96 1253.77,-1412 1269.73,-1434.81 1249.43,-1455.38 1271.77,-1472 1319.34,-1507.39 1350.75,-1495.53 1405.18,-1472 1438.23,-1457.72 1445.07,-1445.44 1460.68,-1413 1500.25,-1330.77 1522.39,-1046.91 1528.68,-954.4"/>
 <text xml:space="preserve" text-anchor="middle" x="1088.17" y="-1310.22" font-family="Times,serif" font-size="14.00">171</text>
 </g>
 <!-- go
@@ -1406,11 +1406,11 @@
 </g>
 <!-- ncit
 21,845&#45;&#45;orpha
-66 -->
+15,288 -->
 <g id="edge89" class="edge">
 <title>ncit
 21,845&#45;&#45;orpha
-66</title>
+15,288</title>
 <path fill="none" stroke="black" d="M1045.67,-1356.28C1087.6,-1347.02 1157.23,-1339.42 1198.27,-1377 1238.69,-1414.01 1176.77,-1461 1216.27,-1499 1255.42,-1536.66 1421.02,-1539.11 1460.68,-1502 1501.16,-1464.13 1523.64,-1066.11 1529.2,-954.15"/>
 <text xml:space="preserve" text-anchor="middle" x="1235.02" y="-1520.53" font-family="Times,serif" font-size="14.00">37</text>
 </g>
@@ -1458,12 +1458,12 @@
 </g>
 <!-- mondo
 30,384&#45;&#45;orpha
-66 -->
+15,288 -->
 <g id="edge94" class="edge">
 <title>mondo
 30,384&#45;&#45;orpha
-66</title>
-<path fill="none" stroke="black" d="M1198.65,-992.56C1216.37,-993.83 1237.19,-997.57 1253.77,-1007 1264.75,-1013.25 1260.35,-1023.59 1271.77,-1029 1325.35,-1054.39 1349.4,-1049.12 1405.18,-1029 1449.61,-1012.97 1489.43,-973.6 1511.75,-948.16"/>
+15,288</title>
+<path fill="none" stroke="black" d="M1198.65,-992.56C1216.37,-993.83 1237.19,-997.57 1253.77,-1007 1264.75,-1013.25 1260.35,-1023.59 1271.77,-1029 1325.35,-1054.39 1349.4,-1049.12 1405.18,-1029 1448.81,-1013.26 1488,-975.01 1510.53,-949.54"/>
 <text xml:space="preserve" text-anchor="middle" x="1338.47" y="-1049.32" font-family="Times,serif" font-size="14.00">10,344</text>
 </g>
 <!-- mondo
@@ -1641,49 +1641,49 @@
 <text xml:space="preserve" text-anchor="middle" x="1235.02" y="-913.7" font-family="Times,serif" font-size="14.00">2,653</text>
 </g>
 <!-- orpha
-66&#45;&#45;gard
+15,288&#45;&#45;gard
 6,097 -->
 <g id="edge154" class="edge">
 <title>orpha
-66&#45;&#45;gard
+15,288&#45;&#45;gard
 6,097</title>
 <path fill="none" stroke="black" d="M1539.62,-896.46C1556.06,-831.95 1599.99,-670.63 1657.95,-544 1677.56,-501.17 1707.06,-454.97 1725.55,-427.55"/>
 <text xml:space="preserve" text-anchor="middle" x="1621.2" y="-680.31" font-family="Times,serif" font-size="14.00">39</text>
 </g>
 <!-- orpha
-66&#45;&#45;omim
+15,288&#45;&#45;omim
 15,380 -->
 <g id="edge155" class="edge">
 <title>orpha
-66&#45;&#45;omim
+15,288&#45;&#45;omim
 15,380</title>
-<path fill="none" stroke="black" d="M1536.78,-896.14C1549.48,-812.43 1590.71,-562.86 1657.95,-365 1679.76,-300.83 1712.02,-228.05 1729.75,-189.46"/>
+<path fill="none" stroke="black" d="M1536.83,-895.84C1549.58,-811.83 1590.79,-562.62 1657.95,-365 1679.76,-300.83 1712.02,-228.05 1729.75,-189.46"/>
 <text xml:space="preserve" text-anchor="middle" x="1621.2" y="-549.91" font-family="Times,serif" font-size="14.00">11,625</text>
 </g>
 <!-- orpha
-66&#45;&#45;meddra -->
+15,288&#45;&#45;meddra -->
 <g id="edge156" class="edge">
 <title>orpha
-66&#45;&#45;meddra</title>
-<path fill="none" stroke="black" d="M1564.09,-932.25C1592.05,-939.33 1629.95,-950.72 1639.95,-962.5 1715.65,-1051.63 1737.72,-1441.32 1741.83,-1530.69"/>
+15,288&#45;&#45;meddra</title>
+<path fill="none" stroke="black" d="M1568.17,-933.3C1595.61,-940.42 1630.43,-951.29 1639.95,-962.5 1715.65,-1051.63 1737.72,-1441.32 1741.83,-1530.69"/>
 <text xml:space="preserve" text-anchor="middle" x="1621.2" y="-965.7" font-family="Times,serif" font-size="14.00">1,901</text>
 </g>
 <!-- orpha
-66&#45;&#45;icd10
+15,288&#45;&#45;icd10
 6,838 -->
 <g id="edge157" class="edge">
 <title>orpha
-66&#45;&#45;icd10
+15,288&#45;&#45;icd10
 6,838</title>
-<path fill="none" stroke="black" d="M1553.3,-903.06C1576.31,-878 1613.66,-835.13 1639.95,-794 1679.93,-731.47 1714.82,-651.04 1731.73,-609.52"/>
+<path fill="none" stroke="black" d="M1554.56,-901.69C1577.66,-876.45 1614.14,-834.39 1639.95,-794 1679.93,-731.47 1714.82,-651.04 1731.73,-609.52"/>
 <text xml:space="preserve" text-anchor="middle" x="1621.2" y="-846.26" font-family="Times,serif" font-size="14.00">7,879</text>
 </g>
 <!-- orpha
-66&#45;&#45;hgnc -->
+15,288&#45;&#45;hgnc -->
 <g id="edge158" class="edge">
 <title>orpha
-66&#45;&#45;hgnc</title>
-<path fill="none" stroke="black" d="M1562.8,-914.71C1575.09,-910.56 1589.44,-905.76 1602.45,-901.5 1642.49,-888.41 1689.14,-873.71 1717.24,-864.91"/>
+15,288&#45;&#45;hgnc</title>
+<path fill="none" stroke="black" d="M1566.65,-913.41C1578.03,-909.58 1590.77,-905.32 1602.45,-901.5 1642.49,-888.41 1689.14,-873.71 1717.24,-864.91"/>
 <text xml:space="preserve" text-anchor="middle" x="1621.2" y="-904.7" font-family="Times,serif" font-size="14.00">4,520</text>
 </g>
 <!-- uniprot -->
@@ -1693,10 +1693,10 @@
 <text xml:space="preserve" text-anchor="middle" x="1743.6" y="-1670.95" font-family="Times,serif" font-size="14.00">uniprot</text>
 </g>
 <!-- orpha
-66&#45;&#45;uniprot -->
+15,288&#45;&#45;uniprot -->
 <g id="edge159" class="edge">
 <title>orpha
-66&#45;&#45;uniprot</title>
+15,288&#45;&#45;uniprot</title>
 <path fill="none" stroke="black" d="M1533.01,-954.21C1535.48,-1048.9 1551.75,-1354.08 1657.95,-1576 1674.25,-1610.06 1705,-1641.99 1724.61,-1660.24"/>
 <text xml:space="preserve" text-anchor="middle" x="1621.2" y="-1530.18" font-family="Times,serif" font-size="14.00">4,441</text>
 </g>
@@ -1707,11 +1707,11 @@
 <text xml:space="preserve" text-anchor="middle" x="1743.6" y="-915.95" font-family="Times,serif" font-size="14.00">ensembl</text>
 </g>
 <!-- orpha
-66&#45;&#45;ensembl -->
+15,288&#45;&#45;ensembl -->
 <g id="edge160" class="edge">
 <title>orpha
-66&#45;&#45;ensembl</title>
-<path fill="none" stroke="black" d="M1564.92,-923.67C1576.73,-923.23 1590.2,-922.78 1602.45,-922.5 1635.66,-921.73 1673.3,-921.35 1701.2,-921.17"/>
+15,288&#45;&#45;ensembl</title>
+<path fill="none" stroke="black" d="M1569.56,-923.5C1580.18,-923.12 1591.77,-922.75 1602.45,-922.5 1635.66,-921.73 1673.3,-921.35 1701.2,-921.17"/>
 <text xml:space="preserve" text-anchor="middle" x="1621.2" y="-925.7" font-family="Times,serif" font-size="14.00">4,469</text>
 </g>
 <!-- wikipedia.en&#45;&#45;chebi

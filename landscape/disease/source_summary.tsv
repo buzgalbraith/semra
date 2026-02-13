@@ -4,11 +4,12 @@ mondo	Mondo Disease Ontology	CC-BY-4.0	2026-01-06	30384	full
 efo	Experimental Factor Ontology	Apache-2.0	3.86.0	2108	subset
 mesh	Medical Subject Headings	CC0-1.0	2026	3162	subset
 ncit	NCI Thesaurus	CC-BY-4.0	26.02b	21845	subset
+orpha	Orphanet	CC-BY-4.0		15288	observed
 orphanet	Orphanet	CC-BY-4.0		0	observed
-orphanet.ordo	Orphanet Rare Disease Ontology	CC-BY-4.0	4.7	15799	full
+orphanet.ordo	Orphanet Rare Disease Ontology	CC-BY-4.0	4.7	0	observed
 umls	Unified Medical Language System Concept Unique Identifier	https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/license_agreement.html	2025AB	191213	subset
-omim	Online Mendelian Inheritance in Man	https://www.omim.org/help/agreement	2026-02-11	15380	observed
-omim.ps	OMIM Phenotypic Series	https://www.omim.org/help/agreement	2026-02-11	610	full
+omim	Online Mendelian Inheritance in Man	https://www.omim.org/help/agreement	2026-02-12	15380	observed
+omim.ps	OMIM Phenotypic Series	https://www.omim.org/help/agreement	2026-02-12	610	full
 medgen	Human Medical Genetics			21440	observed
 gard	Genetic and Rare Diseases Information Center			6097	full
 icd10	International Classification of Diseases, 10th Revision	https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf	2019	6838	observed

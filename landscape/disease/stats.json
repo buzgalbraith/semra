@@ -18,8 +18,8 @@
     "16": 4,
     "17": 1
   },
-  "raw_term_count": 369935,
-  "reduction": 0.6542608836687526,
+  "raw_term_count": 369424,
+  "reduction": 0.6537826454155659,
   "refresh_raw_timedelta": null,
   "refresh_source_timedelta": null,
   "unique_term_count": 127901

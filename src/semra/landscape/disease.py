@@ -102,6 +102,7 @@ PREFIXES = PRIORITY = [
     "efo",
     "mesh",
     "ncit",
+    "orpha", ## adding orpha prefix
     "orphanet",
     "orphanet.ordo",
     "umls",
